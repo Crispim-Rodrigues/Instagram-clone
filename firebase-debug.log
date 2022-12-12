@@ -1,0 +1,21 @@
+[debug] [2022-11-29T07:04:21.939Z] ----------------------------------------------------------------------
+[debug] [2022-11-29T07:04:21.954Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Railane\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-11-29T07:04:21.959Z] CLI Version:   11.16.1
+[debug] [2022-11-29T07:04:21.960Z] Platform:      win32
+[debug] [2022-11-29T07:04:21.960Z] Node Version:  v16.17.0
+[debug] [2022-11-29T07:04:22.029Z] Time:          Tue Nov 29 2022 04:04:21 GMT-0300 (Horário Padrão de Brasília)
+[debug] [2022-11-29T07:04:22.031Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-11-29T07:04:22.088Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-11-29T07:04:22.090Z] > authorizing via signed-in user (crispimdosreisrodriques@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Railane\Desktop\Instagram-clone-Completo
+

@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f7f7f7;
+}
+
+
+/* header inicio */
+.header{
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid #c2c2c29c;
+}
+.center{
+    margin: 0 auto;
+    max-width: 1100px;
+    display: flex;
+}
+.header_logo{
+    text-align: start;
+    margin: 10px 0;
+    width: 50%;
+    padding-left: 2%;
+}
+.logo{
+   
+    height: 30px;
+}
+.seta{
+    margin: 10px;
+    margin-left: 8px;
+    height: 15px;
+}
+.Header_logado{
+    margin: 19px 0;
+    padding-right: 2%;
+    width: 50%;
+    text-align: end;
+}
+.Header_logado a{
+    margin-left: 8px;
+    color: #0095f6;
+    font-weight: 500;
+    text-decoration: none;
+}
+/* Header Fim */
+
+
+
+/* Formulario de login e Cadastro */
+.header_loginForm{
+    user-select: none;
+    position: fixed;
+    background-color: #f8f8f8;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%
+}
+.FormLogin{
+    user-select: none;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 70%;
+    max-width: 400px;
+    padding: 20px;
+    border: 0.1px solid #c2c2c2 ;
+}
+.FormLogin a,
+.FormCadastro a{
+    margin: 30px auto;
+    width: 100%;
+    text-align: center;
+}
+.logo1{
+    user-select: none;
+    height: 50px;
+}
+.FormLogin input,
+.FormCadastro input{
+    border-radius: 5px;
+    width: 100%;
+    margin: 3px 25px;
+    padding: 10px;
+    border: calc(1px/3) solid #c2c2c2;
+}
+.acao{
+    user-select: none;
+    text-align: center;
+    color: white;
+    background-color: #0095f6;
+    font-weight: 700;
+    margin-top: 8px;
+}
+.FormLogin span,
+.FormCadastro span{
+    text-align: center;
+    width: 100%;
+    margin: 8px 25px;
+}
+.FormLogin span a,
+.FormCadastro span a{
+   color: #0095f6;
+   font-weight: 500;
+   text-decoration: none;
+}
+.FormCadastro{
+    position: absolute;
+    display: none;
+    flex-wrap: wrap;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 70%;
+    max-width: 400px;
+    padding: 20px;
+    border: 0.1px solid #c2c2c2 ;
+}
+/* fim do formulario de login e Cadastro*/
+
+/* footer inicio */
+.footer{
+    width: 100%;
+    background-color: white;
+    border-top: 1px solid #c2c2c2;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+}
+.navbar{
+    user-select: none;
+    text-align: center;
+    height: 50px;
+}
+.navbar img{
+    cursor: pointer;
+    pointer-events: inherit;
+    position: absolute;
+    transition: 90ms;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 20px;
+}
+.navbar img:hover{
+    transition: 90ms;
+    height: 22px;
+}
+/* fim navbar */
+/* upload inicio */
+.FormUp{
+    position: fixed;
+    display: none;
+    background-color: #000000a9;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+.FormUploader{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 70%;
+    border-radius: 10px;
+    max-width: 400px;
+    padding: 20px 0;
+    padding-top: 10px;
+    border: 0.1px solid #c2c2c2 ;
+}
+.FormUploader h3{
+    font-weight: 600;
+    font-size: 16px;
+    user-select: none;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    border-bottom:1px solid #c2c2c2;
+    padding-bottom: 10px;
+}
+.fecharUp{
+    user-select: none;
+    text-align: end;
+    position: absolute;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    padding-bottom: 100vh;
+}
+.pointer{
+    cursor: pointer;
+}
+.FormUploader input{
+    width: 100%;
+    margin: 5px 35px;
+    padding: 10px;
+}
+.Criarpost{
+    width: 100%;
+    margin: 5px 35px;
+    padding: 10px;
+    text-align: center;
+    background-color: #0095f6;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+progress{
+    display: flex;
+    width: 100%;
+    margin: 0 35px;
+}
+#Titulo-upload{
+    height: 90px; 
+    padding: 10px;
+    resize: vertical;
+    width: 100%;
+    margin: 5px 35px;
+    max-height: 30vw;
+}
+#Titulo-upload:focus{
+    outline: none;
+}
+/* fim do upload */
+/* inicio postSingle */
+.centerpost{
+    padding: 60px 0;
+    background-color: #c2c2c200;
+    margin: 0 auto;
+    max-width: 500px;
+    display: block;
+}
+.postsingle{
+    margin: 20px 0;
+    border: 1px solid #c2c2c2;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px 0;
+}
+.postsingle img{
+    width: 100%;
+}
+.postsingle p{
+    margin: 0 2%;
+}
+.postsingle form{
+    display: flex
+}
+.postsingle form textarea{
+    border-radius: 40px;
+    height: 40px;
+    width: 66%;
+    margin: 2% 2%;
+    padding: 10px;
+    resize: none;
+}
+.postsingle form input{
+    width: 26%;
+    margin: 2% 2%;
+    padding: 7px;
+    border-radius: 20px;
+}
