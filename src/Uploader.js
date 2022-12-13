@@ -1,10 +1,10 @@
 import './App.css';
 import React from "react";
-import { doc, setDoc, addDoc, collection } from "firebase/firestore"; 
-import {useEffect, useState} from 'react';
+import {addDoc, collection} from "firebase/firestore"; 
+import {useState} from 'react';
 import {db, storage} from './firebase.js';
 import {ref, getDownloadURL,uploadBytesResumable, uploadBytes,} from "firebase/storage";
-import {serverTimestamp } from "firebase/firestore";
+import {serverTimestamp} from "firebase/firestore";
 
 
 function Postar(props){

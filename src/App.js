@@ -1,6 +1,6 @@
 import './App.css';
 import Header from './Header';
-import { collection, getDocs, orderBy, onSnapshot, query } from 'firebase/firestore';
+import { collection, orderBy, onSnapshot, query } from 'firebase/firestore';
 import {useEffect, useState} from 'react';
 import Footer from './Footer';
 import Postar from './Uploader.js';
@@ -27,17 +27,8 @@ function App() {
     <div className='app'> 
       <Footer></Footer>
       <Header setUser={setUser} user={user}></Header>
-      <Postar setUser={setUser} user={user}></Postar>
-      <div className='centerpost'>
-        {
-          posts.map((val)=>{
-            return(
-              <Post info={val.info} id={val.id}></Post>
-            )
-          })
-        }
-      </div>
-
+      {(user)?<Postar setUser={setUser} user={user}></Postar>:<></>}
+      {(user)?<div className='centerpost'>{posts.map((val)=>{return(<Post user={user} info={val.info} id={val.id}></Post>)})}</div>:<></>}
     </div>
   );
 }
